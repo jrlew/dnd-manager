@@ -1,0 +1,21 @@
+.monster-view {
+    display: -webkit-flex;
+    display: flex;
+    background-color: blueviolet;
+    flex: 1;
+    padding-top: 46px;
+}
+
+.monster-view nav {
+    max-width: 200px;
+    background-color: cadetblue;
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.monster-view .monster-detail {
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: coral;
+}

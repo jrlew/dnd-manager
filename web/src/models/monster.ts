@@ -1,0 +1,34 @@
+export interface Monster {
+    id: string;
+    name: string;
+    meta: string;
+    armorClass: string;
+    hitPoints: string;
+    speed: string;
+    strength: string;
+    strMod: string;
+    dex: string;
+    dexMod: string;
+    con: string;
+    conMod: string;
+    intelligence: string;
+    intMod: string;
+    wis: string;
+    wisMod: string;
+    cha: string;
+    chaMod: string;
+    savingThrows: string;
+    skills: string;
+    senses: string;
+    damageVulnerabilities: string;
+    damageResistances: string;
+    damageImmunities: string;
+    conditionImmunities: string;
+    languages: string;
+    challenge: string;
+    traits: string;
+    actions: string;
+    legendaryActions: string;
+    reactions: string;
+    imgUrl: string;
+}
